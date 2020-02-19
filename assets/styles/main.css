@@ -1,0 +1,113 @@
+.container {
+  max-width: 100%;
+}
+.row {
+  display: flex;
+}
+header {
+  background: #383838;
+  color: #888888;
+}
+ul {
+  display: flex;
+}
+.menu {
+  margin-top: 2%;
+  display: flex;
+}
+li {
+  margin: 20px;
+  display: flex;
+}
+.fas {
+  margin-right: 5%;
+}
+.menu li {
+  font-family: gotham bold;
+  margin-left: 10px;
+}
+.button {
+  float: left;
+  background-color: #d35266;
+  color: white;
+  margin-top: 22%;
+  border: none;
+  border-radius: 3%;
+  height: 45%;
+  width: 85%;
+}
+.grid-container {
+  background: #d35266;
+  color: white;
+  display: grid;
+  grid-template-columns: auto;
+}
+.grid-item {
+  text-align: center;
+}
+.grid-container h1 {
+  font-size: 90px;
+}
+.grid-container p {
+  font-size: 30px;
+  font-family: helvetica neue light;
+}
+.grid-item select {
+  background-color: #ffffff;
+  padding-left: 10px;
+  border-radius: 0%;
+}
+.grid-item button {
+  background: #383838;
+  color: #888888;
+  width: 100%;
+  border: none;
+}
+.fa {
+  margin-top: 15px;
+  margin-right: -14px;
+  color: #000000;
+  z-index: 1;
+}
+input {
+  width: 200px;
+  height: 45px;
+}
+.list-item {
+  padding-left: 2px;
+  margin: 20px 0;
+}
+#search {
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid-item:last-child {
+  margin-left: 10px;
+}
+.search-button {
+  margin-left: 2%;
+}
+@media screen and (max-width: 768px) {
+  .grid-container {
+    display: none;
+  }
+  .col-3 {
+    width: 15%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .col-3 {
+    width: 20%;
+  }
+  .col-9 {
+    width: 80%;
+  }
+  .button {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .button {
+    font-size: 15px;
+  }
+}
