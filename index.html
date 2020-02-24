@@ -46,7 +46,7 @@
         </nav>
       </header>
       <!--main page containt-->
-      <div class=" row grid-container">
+      <div class=" row grid-container header">
         <h1 class="grid-item">ZATTIX</h1>
         <p class="grid-item">
           Buying And Selling Couldn't Be simpler Than This!
@@ -64,10 +64,16 @@
             <input type="text" value="What do you search for ?" />
           </li>
           <li class="list-item"><input type="text" /></li>
-          <li class="list-item search-button"><button>SEARCH</button></li>
+          <li class="list-item search-button">
+            <!-- <button> -->
+            <h3 class="search-button-link">
+              <a href="./pages/search.html">SEARCH</a>
+            </h3>
+            <!-- </button> -->
+          </li>
         </ul>
       </div>
-      <div class="row">
+      <div class="hot-ads row">
         <div class="col-2">
           <i class="fa fa-arrow-circle-left"></i>
         </div>
@@ -92,7 +98,7 @@
               </div>
               <div class="price row">
                 <span class="price-tag col-4">450$</span>
-                <span class="col-8">
+                <span class="purchase-details col-8">
                   <i class="fas fa-shopping-cart"></i>
                   Purchase details
                 </span>
@@ -113,8 +119,8 @@
               class="content-title-icon"
             />
             <p class="content-title-description">
-              <b>Electronics</b> (Computers, Speekers, Microphones, Headsets and
-              Mixers
+              <b>Mixers</b> (DJ Mixers, Pioneer Mixers, Numark Mixers and
+              Behringer
             </p>
           </div>
           <div class="row products">
@@ -188,14 +194,29 @@
                 <span class="product-price-tag">450$</span>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="page-container">
+          <div class="content-title">
+            <img
+              src="./assets/images/icon.png"
+              alt=""
+              class="content-title-icon"
+            />
+            <p class="content-title-description">
+              <b>Computers</b> (Apple, HP, Samsung, Positivo and Asus
+            </p>
+          </div>
+          <div class="row products">
             <div class="col-sm-4">
               <img
-                src="./assets/images/SDK-DM20.jpg"
+                src="./assets/images/asus.jpg"
                 alt=""
                 class="product-image"
               />
               <span>
-                SWAMP Industries Soundking DM20 Digital Mixing Desk... </span
+                ASUS X556UB-6200U Core i5 6th Generation Laptop | Asus laptop
+                ...</span
               ><br />
               <span class="state">New</span>
               <br />
@@ -210,12 +231,73 @@
             </div>
             <div class="col-sm-4">
               <img
-                src="./assets/images/SDK-DM20.jpg"
+                src="./assets/images/macbook.jpg"
+                alt=""
+                class="product-image"
+              />
+              <span> Apple MacBook Pro 13-Inch (2019) Re... </span><br />
+              <span class="state">New</span>
+              <br />
+              <br />
+              <span>From: San Francisco, US</span>
+              <div class="buy-it-now">
+                <button class="add-to-cart">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <span class="product-price-tag">1,299.00$</span>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <img src="./assets/images/hp.png" alt="" class="product-image" />
+              <span
+                >HP Laptop EliteBook 840 G4 (1GE39UT#ABA) Intel Core i5 7th Gen
+                7200U (2.60 GHz) 8 GB Memory 256 GB PCIe NVMe... </span
+              ><br />
+              <span class="state">New</span>
+              <br />
+              <br />
+              <span>From: San Francisco, US</span>
+              <div class="buy-it-now">
+                <button id="btn" class="add-to-cart">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <div id="myModal" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <p>Some text in the Modal Body</p>
+                      <p>Some other text...</p>
+                    </div>
+                  </div>
+                </div>
+                <span class="product-price-tag">850$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="page-container">
+          <div class="content-title">
+            <img
+              src="./assets/images/icon.png"
+              alt=""
+              class="content-title-icon"
+            />
+            <p class="content-title-description">
+              <b>Controllers</b> (Pioneer, Numark, Behringer, Headsets and
+              Mixers
+            </p>
+          </div>
+          <div class="row products">
+            <div class="col-sm-4">
+              <img
+                src="./assets/images/Pioneer.png"
                 alt=""
                 class="product-image"
               />
               <span>
-                SWAMP Industries Soundking DM20 Digital Mixing Desk... </span
+                Pioneer DJ DDJ-SX2 (archived) 4-channel controller for Serato DJ
+                Pro and ...</span
               ><br />
               <span class="state">New</span>
               <br />
@@ -225,17 +307,19 @@
                 <button class="add-to-cart">
                   <i class="fas fa-plus"></i>
                 </button>
-                <span class="product-price-tag">450$</span>
+                <span class="product-price-tag">650$</span>
               </div>
             </div>
             <div class="col-sm-4">
               <img
-                src="./assets/images/SDK-DM20.jpg"
+                src="./assets/images/numark.jpg"
                 alt=""
                 class="product-image"
               />
-              <span>
-                SWAMP Industries Soundking DM20 Digital Mixing Desk... </span
+              <span
+                >Numark Mixtrack Pro 3 | All In One 2 Deck DJ Controller for
+                Serato DJ Including an On board Audio Interface, 5 inch High
+                Resolution </span
               ><br />
               <span class="state">New</span>
               <br />
@@ -245,66 +329,35 @@
                 <button class="add-to-cart">
                   <i class="fas fa-plus"></i>
                 </button>
-                <span class="product-price-tag">450$</span>
+                <span class="product-price-tag">250$</span>
               </div>
             </div>
             <div class="col-sm-4">
               <img
-                src="./assets/images/SDK-DM20.jpg"
+                src="./assets/images/behringer.jpg"
                 alt=""
                 class="product-image"
               />
               <span>
-                SWAMP Industries Soundking DM20 Digital Mixing Desk... </span
+                Amazon.co.uk Behringer CMD STUDIO 4A DJ Controller... </span
               ><br />
               <span class="state">New</span>
               <br />
               <br />
               <span>From: San Francisco, US</span>
               <div class="buy-it-now">
-                <button class="add-to-cart">
+                <button id="btn" class="add-to-cart">
                   <i class="fas fa-plus"></i>
                 </button>
-                <span class="product-price-tag">450$</span>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <img
-                src="./assets/images/SDK-DM20.jpg"
-                alt=""
-                class="product-image"
-              />
-              <span>
-                SWAMP Industries Soundking DM20 Digital Mixing Desk... </span
-              ><br />
-              <span class="state">New</span>
-              <br />
-              <br />
-              <span>From: San Francisco, US</span>
-              <div class="buy-it-now">
-                <button class="add-to-cart">
-                  <i class="fas fa-plus"></i>
-                </button>
-                <span class="product-price-tag">450$</span>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <img
-                src="./assets/images/SDK-DM20.jpg"
-                alt=""
-                class="product-image"
-              />
-              <span>
-                SWAMP Industries Soundking DM20 Digital Mixing Desk... </span
-              ><br />
-              <span class="state">New</span>
-              <br />
-              <br />
-              <span>From: San Francisco, US</span>
-              <div class="buy-it-now">
-                <button class="add-to-cart">
-                  <i class="fas fa-plus"></i>
-                </button>
+                <div id="myModal" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <p>Some text in the Modal Body</p>
+                      <p>Some other text...</p>
+                    </div>
+                  </div>
+                </div>
                 <span class="product-price-tag">450$</span>
               </div>
             </div>
@@ -323,6 +376,7 @@
         </div>
         <div class="col-7">
           <span class="footer-list-title">CATEGORIES</span>
+          <hr />
           <div class="row footer-categories ">
             <ul class="footer-list col-6">
               <li>Mixers</li>
