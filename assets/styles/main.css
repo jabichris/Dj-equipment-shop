@@ -253,6 +253,7 @@ input {
   margin-bottom: 1%;
   max-width: 30%;
 }
+
 .first-filter,
 .second-filter,
 .third-filter,
@@ -381,7 +382,7 @@ span {
   font-size: 13px;
 }
 
-/* for small screen*/
+/* for small screen */
 
 @media screen and (max-width: 767px) {
   .grid-container {
@@ -415,7 +416,7 @@ span {
   }
 }
 
-/* for medium screen*/
+/* for medium screen */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .col-3 {
@@ -451,7 +452,7 @@ span {
   }
 }
 
-/* for big screen*/
+/* for big screen */
 
 @media screen and (min-width: 1024px) {
   .button {
