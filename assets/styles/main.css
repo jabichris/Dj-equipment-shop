@@ -81,6 +81,10 @@ li {
   text-align: center;
 }
 
+.grid-container {
+  transition: ease all 0.5s;
+}
+
 .grid-container h1 {
   font-size: 90px;
 }
@@ -422,6 +426,7 @@ span {
 
   .search-choice {
     display: none;
+    transition: ease all 0.5s;
   }
 
   .page-container {
