@@ -29,6 +29,7 @@ ul {
 .menu {
   margin-top: 2%;
   display: flex;
+  justify-content: center;
 }
 
 li {
@@ -107,6 +108,10 @@ li {
   width: 80px;
   padding-top: 15%;
   border: none;
+}
+
+.hot-ads .col-1 {
+  padding-top: 10%;
 }
 
 .fa {
@@ -394,7 +399,8 @@ span {
   }
 
   .col-sm-4 {
-    max-width: 50%;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 
   .search-content img {
@@ -402,13 +408,16 @@ span {
   }
 
   .button {
-    font-size: 10px;
+    font-size: 7px;
+    height: 100%;
+    width: 40%;
+    margin-top: 0%;
   }
 
   .img-header {
-    width: 50%;
+    width: 25%;
     margin-left: 30%;
-    margin-top: 15%;
+    margin-top: 5%;
   }
 
   .search-choice {
@@ -421,25 +430,52 @@ span {
   }
 
   h3 {
-    font-size: 6px;
-  }
-
-  .menu li {
-    flex: 0 0 15%;
-    max-width: 15%;
     font-size: 10px;
   }
 
-  .col-lg-2 .button {
-    flex: 0 0 100%;
-    max-width: 100%;
+  .menu {
     width: 100%;
+  }
+
+  .menu li {
+    flex: 0 0 30%;
+    max-width: 30%;
+    font-size: 16px;
+  }
+  .menu li:last-child() {
+    margin-left: 10px;
+  }
+
+  .button-container {
+    padding-left: 32%;
+    height: 20px;
+    margin-bottom: 20px;
+  }
+
+  .col-lg-2 .button {
+    flex: 0 0 30%;
+    max-width: 30%;
+    height: 60px;
     font-size: 7px;
-    margin-top: 25%;
+    margin-top: 0%;
+  }
+
+  nav .col-lg-2 {
+    padding-bottom: 2%;
+    justify-content: center;
+    display: flex;
   }
 
   .footer .col-sm-7 {
     padding-top: 4%;
+  }
+
+  .price-tag {
+    font-size: 8px;
+  }
+
+  .purchase-details {
+    font-size: 8px;
   }
 }
 
