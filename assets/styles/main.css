@@ -442,6 +442,7 @@ span {
     max-width: 30%;
     font-size: 16px;
   }
+
   .menu li:last-child() {
     margin-left: 10px;
   }
