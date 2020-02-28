@@ -1,8 +1,14 @@
 # Dj-equipment-shop
 
-> This is the project for learning pourposes
+> This is the project for learning purposes. Dj equipment shop is an electronic online shop for deejay equipment.
 
-#### Link to live view
+## Screenshot
+
+[![screencapture-127-0-0-1-5500-pages-search-html-2020-02-28-16-12.png](https://i.postimg.cc/MHrJd5K0/screencapture-127-0-0-1-5500-pages-search-html-2020-02-28-16-12.png)](https://postimg.cc/64RPQdZT)
+
+## Link to live view
+
+https://raw.githack.com/jabichris/Dj-equipment-shop/develop/index.html
 
 ## Built With
 

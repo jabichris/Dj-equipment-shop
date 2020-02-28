@@ -28,6 +28,7 @@ ul {
 
 .menu {
   margin-top: 2%;
+  margin-left: 1%;
   display: flex;
   justify-content: center;
 }
@@ -56,6 +57,45 @@ li {
   width: 85%;
 }
 
+.first-filter-checkbox {
+  display: flex;
+}
+
+input {
+  width: 200px;
+  height: 45px;
+}
+
+.first-filter-checkbox input {
+  margin-left: -5px;
+}
+
+.button-container {
+  height: 40px;
+}
+
+aside h3 {
+  font-size: 13px;
+  margin-right: -6px;
+}
+
+.grid-container {
+  margin-left: -20px;
+  transition: ease all 0.5s;
+}
+
+.second-checkbox {
+  margin-left: 10px;
+}
+
+span {
+  font-size: 13px;
+}
+
+aside span {
+  color: #383838;
+}
+
 .card-img {
   width: 50%;
   margin-right: 3%;
@@ -79,10 +119,6 @@ li {
 
 .grid-item {
   text-align: center;
-}
-
-.grid-container {
-  transition: ease all 0.5s;
 }
 
 .grid-container h1 {
@@ -125,11 +161,6 @@ li {
   z-index: 1;
 }
 
-input {
-  width: 200px;
-  height: 45px;
-}
-
 .list-item {
   padding-left: 2px;
   margin: 20px 0;
@@ -163,6 +194,10 @@ input {
 
 .fa-arrow-circle-right {
   color: #d35266;
+}
+
+.hiden-menu {
+  display: none;
 }
 
 .price {
@@ -387,15 +422,15 @@ input {
   color: #888;
 }
 
-span {
-  font-size: 13px;
-}
-
 /* for small screen */
 
 @media screen and (max-width: 767px) {
   .grid-container {
     display: none;
+  }
+
+  .hiden-menu {
+    display: inline;
   }
 
   .col-3 {
@@ -407,10 +442,6 @@ span {
     max-width: 100%;
   }
 
-  .search-content img {
-    height: 200px;
-  }
-
   .button {
     font-size: 7px;
     height: 100%;
@@ -418,10 +449,14 @@ span {
     margin-top: 0%;
   }
 
+  .give-a-call {
+    height: 10%;
+    margin-left: 10px;
+  }
+
   .img-header {
-    width: 25%;
-    margin-left: 30%;
-    margin-top: 5%;
+    width: 100%;
+    margin-top: 15%;
   }
 
   .search-choice {
@@ -440,22 +475,22 @@ span {
 
   .menu {
     width: 100%;
+    margin-left: 4%;
   }
 
   .menu li {
-    flex: 0 0 30%;
-    max-width: 30%;
-    font-size: 16px;
+    font-size: 9px;
   }
 
-  .menu li:last-child() {
-    margin-left: 10px;
+  .menu li:last-child {
+    margin-left: 30px;
   }
 
   .button-container {
     padding-left: 32%;
     height: 20px;
     margin-bottom: 20px;
+    display: none;
   }
 
   .col-lg-2 .button {
@@ -483,6 +518,18 @@ span {
   .purchase-details {
     font-size: 8px;
   }
+
+  .hot-ads {
+    display: none;
+  }
+
+  #collections {
+    margin-left: -3%;
+  }
+
+  .content-title-description {
+    font-size: 10px;
+  }
 }
 
 /* for medium screen */
@@ -501,6 +548,18 @@ span {
     margin-bottom: 3%;
   }
 
+  .col-sm-9 {
+    max-width: 74%;
+  }
+
+  nav .col-sm-9 {
+    max-width: 74%;
+  }
+
+  .button-container {
+    height: 60px;
+  }
+
   .col-9 {
     width: 80%;
   }
@@ -514,10 +573,24 @@ span {
     font-size: 13px;
   }
 
+  .purchase-details {
+    font-size: 11px;
+  }
+
   .img-header {
     width: 60%;
     margin-left: 15%;
     margin-top: 13%;
+  }
+
+  .give-a-call {
+    margin-top: -2%;
+    max-width: 20%;
+    font-size: 13px;
+  }
+
+  .hiden-menu {
+    display: none;
   }
 }
 
@@ -526,11 +599,35 @@ span {
 @media screen and (min-width: 1024px) {
   .button {
     font-size: 15px;
+    margin-top: 10%;
+    height: 70%;
+  }
+
+  .give-a-call {
+    margin-top: 0;
+    height: 15%;
+    max-width: 17%;
+    font-size: 13px;
+  }
+
+  #collections {
+    margin-left: -40px;
   }
 
   .img-header {
     width: 45%;
-    margin-left: 50%;
     margin-top: 9%;
+  }
+
+  nav .col-sm-9 {
+    max-width: 74%;
+  }
+
+  .header {
+    padding-left: 40px;
+  }
+
+  .page-container {
+    padding-left: 0;
   }
 }

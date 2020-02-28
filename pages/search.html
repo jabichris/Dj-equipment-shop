@@ -22,28 +22,31 @@
     <!-- main container-->
     <main class="container">
       <header class="row">
-        <nav class="row col-md-11">
-          <ul class="col-md-9 menu">
-            <li class="col-md-3">
+        <nav class="row col-sm-9 col-9">
+          <ul class="col-sm-9 menu col-12 align-self-center">
+            <li class="col-sm-3 col-2">
               <i class="fas fa-home"></i>
-              <a href="/index.html"><h3>HOME</h3></a>
+              <h3><a href="../index.html">HOME</a></h3>
             </li>
-            <li class="col-md-3">
+            <li class="col-sm-3 col-2" id="collections">
               <i class="fas fa-border-all"></i>
               <h3>COLLECTIONS</h3>
             </li>
-            <li class="col-md-6">
+            <li class="col-sm-6 col-8">
               <i class="fas fa-shopping-cart"></i>
               <h3>PURCHASE LIST</h3>
             </li>
           </ul>
-          <div class="col-md-3 col-lg-2">
+          <div class="button-container col-sm-3 align-self-center">
             <button class="button">POST AN AD</button>
           </div>
         </nav>
+        <div class="hiden-menu col-1 align-self-center">
+          <i class="fas fa-bars"></i>
+        </div>
       </header>
       <!--main page containt-->
-      <div class=" row grid-container header">
+      <div class=" row grid-container header justify-content-center">
         <h1 class="grid-item search-logo">ZATTIX</h1>
         <p class="grid-item search-info">
           Buying And Selling Couldn't Be simpler Than This!
@@ -66,11 +69,17 @@
       </div>
       <div class="container page-content">
         <div class="row search-results ">
-          <aside class="col-3 search-choice ">
+          <aside class="col-2 search-choice ">
             <div class="grid-container">
               <div class="grid-item first-filter">
-                <input type="checkbox" value="" /> Rent
-                <input type="checkbox" value="" /> Ownership
+                <div class="first-filter-checkbox">
+                  <input type="checkbox" value="" />
+                  <h3>Rent</h3>
+                </div>
+                <div class="first-filter-checkbox">
+                  <input type="checkbox" class="second-checkbox" value="" />
+                  <h3>Ownership</h3>
+                </div>
               </div>
               <hr />
               <div class="grid-item second-filter">
@@ -78,15 +87,15 @@
                 <hr />
                 <div class="select-type">
                   <input type="checkbox" value="" />
-                  <h3>Entire Set</h3>
+                  <h3>Pioneer</h3>
                 </div>
                 <div class="select-type">
                   <input type="checkbox" value="" />
-                  <h3>Two Channels</h3>
+                  <h3>Behringer</h3>
                 </div>
                 <div class="select-type">
                   <input type="checkbox" value="" />
-                  <h3>Four Channels</h3>
+                  <h3>Numark</h3>
                 </div>
               </div>
               <hr />
@@ -129,7 +138,7 @@
               </div>
             </div>
           </aside>
-          <div class="col-9 page-container">
+          <div class="col-10 page-container">
             <div class="content-title">
               <p class="content-title-description">
                 <b>138</b> Results for "Flat" Search at San Francisco in
@@ -141,9 +150,9 @@
                 <img
                   src="../assets/images/card-image.png"
                   alt=""
-                  class="col-sm-6"
+                  class="col-sm-3 col-md-5"
                 />
-                <div class="col-sm-6">
+                <div class="col-sm-9 col-md-7">
                   <span>
                     <b
                       >SWAMP Industries Soundking DM20 Digital Mixing Desk</b
@@ -168,9 +177,9 @@
                 <img
                   src="../assets/images/card-image.png"
                   alt=""
-                  class="col-sm-6"
+                  class="col-sm-3 col-md-5"
                 />
-                <div class="col-sm-6">
+                <div class="col-sm-9 col-md-7">
                   <span>
                     <b
                       >SWAMP Industries Soundking DM20 Digital Mixing Desk</b
@@ -200,9 +209,9 @@
                 <img
                   src="../assets/images/card-image.png"
                   alt=""
-                  class="col-sm-6"
+                  class="col-sm-3 col-md-5"
                 />
-                <div class="col-sm-6">
+                <div class="col-sm-9 col-md-7">
                   <span>
                     <b
                       >SWAMP Industries Soundking DM20 Digital Mixing Desk</b
@@ -227,9 +236,9 @@
                 <img
                   src="../assets/images/card-image.png"
                   alt=""
-                  class="col-sm-6"
+                  class="col-sm-3 col-md-5"
                 />
-                <div class="col-sm-6">
+                <div class="col-sm-9 col-md-7">
                   <span>
                     <b
                       >SWAMP Industries Soundking DM20 Digital Mixing Desk</b
@@ -254,9 +263,9 @@
                 <img
                   src="../assets/images/card-image.png"
                   alt=""
-                  class="col-sm-6"
+                  class="col-sm-3 col-md-5"
                 />
-                <div class="col-sm-6">
+                <div class="col-sm-9 col-md-7">
                   <span>
                     <b
                       >SWAMP Industries Soundking DM20 Digital Mixing Desk</b
@@ -281,9 +290,9 @@
                 <img
                   src="../assets/images/card-image.png"
                   alt=""
-                  class="col-sm-6"
+                  class="col-sm-3 col-md-5"
                 />
-                <div class="col-sm-6">
+                <div class="col-sm-9 col-md-7">
                   <span>
                     <b
                       >SWAMP Industries Soundking DM20 Digital Mixing Desk</b
@@ -308,7 +317,11 @@
       </div>
       <footer class="row footer">
         <div class="col-sm-5">
-          <img src="assets/images/footer-logo.png" alt="" class="footer-logo" />
+          <img
+            src="../assets/images/footer-logo.png"
+            alt=""
+            class="footer-logo"
+          />
           <p class="footer-description">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -318,6 +331,7 @@
         </div>
         <div class="col-sm-7">
           <span class="footer-list-title">CATEGORIES</span>
+          <hr />
           <div class="row footer-categories ">
             <ul class="footer-list col-6">
               <li>Mixers</li>
