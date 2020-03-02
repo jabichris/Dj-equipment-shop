@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/e6f879f149.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Dj Equipment Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/styles/reset.css" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+  </head>
+  <body>
+    <!-- main container-->
+    <main class="container">
+      <header class="row">
+        <div class="col-sm-3 col-3 align-self-center">
+          <img src="./assets/images/logo.png" alt="" class="img-header" />
+        </div>
+        <nav class="row col-sm-8 col-8">
+          <ul class="col-sm-9 menu col-12 align-self-center">
+            <li class="col-sm-3 col-2">
+              <i class="fas fa-home"></i>
+              <h3>HOME</h3>
+            </li>
+            <li class="col-sm-3 col-2" id="collections">
+              <i class="fas fa-border-all"></i>
+              <h3>COLLECTIONS</h3>
+            </li>
+            <li class="col-sm-6 col-8">
+              <i class="fas fa-shopping-cart"></i>
+              <h3>PURCHASE LIST</h3>
+            </li>
+          </ul>
+          <div class="button-container col-sm-3 align-self-center">
+            <button class="button">POST AN AD</button>
+          </div>
+        </nav>
+        <div class="hiden-menu col-1 align-self-center">
+          <i class="fas fa-bars"></i>
+        </div>
+      </header>
+      <!--main page containt-->
+      <div class=" row grid-container header">
+        <h1 class="grid-item">ZATTIX</h1>
+        <p class="grid-item">
+          Buying And Selling Couldn't Be simpler Than This!
+        </p>
+        <ul id="search" class="grid-item">
+          <li class="list-item">
+            <i class="fa fa-caret-down"></i>
+            <select name="Departments">
+              <option value="All Department">All Department</option>
+              <option value="headsets">headsets</option>
+              <option value="speakers">speakers</option>
+            </select>
+          </li>
+          <li class="list-item">
+            <input type="text" value="What do you search for ?" />
+          </li>
+          <li class="list-item"><input type="text" /></li>
+          <li class="list-item search-button">
+            <h3 class="search-button-link">
+              <a href="./pages/search.html">SEARCH</a>
+            </h3>
+          </li>
+        </ul>
+      </div>
+      <div class="hot-ads row">
+        <div class="col-1 col-sm-2">
+          <i class="fa fa-arrow-circle-left"></i>
+        </div>
+        <div class="col-10 col-sm-8">
+          <div class="card-title">
+            <h1>HOT ADS</h1>
+          </div>
+          <div class="card">
+            <div class="card-img">
+              <img src="assets/images/card-image.png" alt="" />
+            </div>
+            <div class="card-description">
+              <h1>Pro Audio</h1>
+              <p>
+                DJ Sound Electronics offers pro audio equipment of which include
+                mixers, media players, turntables, controllers, speakers,
+                headphones, DJ software and lighting.
+              </p>
+              <div class="seller">
+                <div><b>By:</b> John Doe</div>
+                <div><b>Location:</b> San Francisco, Ca</div>
+              </div>
+              <div class="price row">
+                <span class="price-tag col-4">450$</span>
+                <span class="purchase-details col-8">
+                  <i class="fas fa-shopping-cart"></i>
+                  Purchase details
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1 col-sm-2">
+          <i class="fa fa-arrow-circle-right"></i>
+        </div>
+      </div>
+      <div class="page-content">
+        <div class="page-container">
+          <div class="content-title">
+            <img
+              src="./assets/images/icon.png"
+              alt=""
+              class="content-title-icon"
+            />
+            <p class="content-title-description">
+              <b>Mixers</b> (DJ Mixers, Pioneer Mixers, Numark Mixers and
+              Behringer
+            </p>
+          </div>
+          <div class="row products">
+            <div class="col-sm-4">
+              <img
+                src="./assets/images/SDK-DM20.jpg"
+                alt=""
+                class="product-image"
+              />
+              <span>
+                SWAMP Industries Soundking DM20 Digital Mixing Desk... </span
+              ><br />
+              <span class="state">New</span>
+              <br />
+              <br />
+              <span>From: San Francisco, US</span>
+              <div class="buy-it-now">
+                <button class="add-to-cart">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <span class="product-price-tag">450$</span>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <img
+                src="./assets/images/SDK-DM20.jpg"
+                alt=""
+                class="product-image"
+              />
+              <span>
+                SWAMP Industries Soundking DM20 Digital Mixing Desk... </span
+              ><br />
+              <span class="state">New</span>
+              <br />
+              <br />
+              <span>From: San Francisco, US</span>
+              <div class="buy-it-now">
+                <button class="add-to-cart">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <span class="product-price-tag">450$</span>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <img
+                src="./assets/images/SDK-DM20.jpg"
+                alt=""
+                class="product-image"
+              />
+              <span>
+                SWAMP Industries Soundking DM20 Digital Mixing Desk... </span
+              ><br />
+              <span class="state">New</span>
+              <br />
+              <br />
+              <span>From: San Francisco, US</span>
+              <div class="buy-it-now">
+                <button id="btn" class="add-to-cart">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <div id="myModal" class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <p>Some text in the Modal Body</p>
+                      <p>Some other text...</p>
+                    </div>
+                  </div>
+                </div>
+
+                <span class="product-price-tag">450$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page-container">
+          <div class="content-title">
+            <img
+              src="./assets/images/icon.png"
+              alt=""
+              class="content-title-icon"
+            />
+            <p class="content-title-description">
+              <b>Computers</b> (Apple, HP, Samsung, Positivo and Asus
+            </p>
+          </div>
+          <div class="row products">
+            <div class="col-sm-4">
+              <img
+                src="./assets/images/asus.jpg"
+                alt=""
+                class="product-image"
+              />
+              <span>
+                ASUS X556UB-6200U Core i5 6th Generation Laptop | Asus laptop
+                ...</span
+              ><br />
+              <span class="state">New</span>
+              <br />
+              <br />
+              <span>From: San Francisco, US</span>
+              <div class="buy-it-now">
+                <button class="add-to-cart">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <span class="product-price-tag">450$</span>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <img
+                src="./assets/images/macbook.jpg"
+                alt=""
+                class="product-image"
+              />
+              <span> Apple MacBook Pro 13-Inch (2019) Re... </span><br />
+              <span class="state">New</span>
+              <br />
+              <br />
+              <span>From: San Francisco, US</span>
+              <div class="buy-it-now">
+                <button class="add-to-cart">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <span class="product-price-tag">1,299.00$</span>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <img src="./assets/images/hp.png" alt="" class="product-image" />
+              <span
+                >HP Laptop EliteBook 840 G4 (1GE39UT#ABA) Intel Core i5 7th Gen
+                7200U (2.60 GHz) 8 GB Memory 256 GB PCIe NVMe... </span
+              ><br />
+              <span class="state">New</span>
+              <br />
+              <br />
+              <span>From: San Francisco, US</span>
+              <div class="buy-it-now">
+                <button class="add-to-cart">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <div class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <p>Some text in the Modal Body</p>
+                      <p>Some other text...</p>
+                    </div>
+                  </div>
+                </div>
+                <span class="product-price-tag">850$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="page-container">
+          <div class="content-title">
+            <img
+              src="./assets/images/icon.png"
+              alt=""
+              class="content-title-icon"
+            />
+            <p class="content-title-description">
+              <b>Controllers</b> (Pioneer, Numark, Behringer, Headsets and
+              Mixers
+            </p>
+          </div>
+          <div class="row products">
+            <div class="col-sm-4">
+              <img
+                src="./assets/images/Pioneer.png"
+                alt=""
+                class="product-image"
+              />
+              <span>
+                Pioneer DJ DDJ-SX2 (archived) 4-channel controller for Serato DJ
+                Pro and ...</span
+              ><br />
+              <span class="state">New</span>
+              <br />
+              <br />
+              <span>From: San Francisco, US</span>
+              <div class="buy-it-now">
+                <button class="add-to-cart">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <span class="product-price-tag">650$</span>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <img
+                src="./assets/images/numark.jpg"
+                alt=""
+                class="product-image"
+              />
+              <span
+                >Numark Mixtrack Pro 3 | All In One 2 Deck DJ Controller for
+                Serato DJ Including an On board Audio Interface, 5 inch High
+                Resolution </span
+              ><br />
+              <span class="state">New</span>
+              <br />
+              <br />
+              <span>From: San Francisco, US</span>
+              <div class="buy-it-now">
+                <button class="add-to-cart">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <span class="product-price-tag">250$</span>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <img
+                src="./assets/images/behringer.jpg"
+                alt=""
+                class="product-image"
+              />
+              <span>
+                Amazon.co.uk Behringer CMD STUDIO 4A DJ Controller... </span
+              ><br />
+              <span class="state">New</span>
+              <br />
+              <br />
+              <span>From: San Francisco, US</span>
+              <div class="buy-it-now">
+                <button class="add-to-cart">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <div class="modal">
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <p>Some text in the Modal Body</p>
+                      <p>Some other text...</p>
+                    </div>
+                  </div>
+                </div>
+                <span class="product-price-tag">450$</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="row footer">
+        <div class="col-sm-5">
+          <img src="assets/images/footer-logo.png" alt="" class="footer-logo" />
+          <p class="footer-description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+        </div>
+        <div class="col-sm-7">
+          <span class="footer-list-title">CATEGORIES</span>
+          <hr />
+          <div class="row footer-categories ">
+            <ul class="footer-list col-6">
+              <li>Mixers</li>
+              <li>Headphones</li>
+              <li>Controllers</li>
+              <li>Lights</li>
+              <li>Turntables</li>
+              <li>Players</li>
+            </ul>
+            <ul class="footer-list col-6">
+              <li>Mixers</li>
+              <li>Headphones</li>
+              <li>Controllers</li>
+              <li>Lights</li>
+              <li>Turntables</li>
+              <li>Players</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script>
+      const modal = document.getElementById('myModal');
+      const btn = document.getElementById('btn');
+      btn.onclick = function() {
+        modal.style.display = 'block';
+      };
+    </script>
+  </body>
+</html>
